@@ -1,0 +1,118 @@
+body{
+   font-family: Cormorant;
+   /* background-color: black; */
+   /* color: blueviolet; */
+}
+
+/* Header Section Started*/
+h1{
+   display: inline-block;
+   font-weight: 400;
+   margin: 0;
+}
+
+a{
+   display: inline-block;
+   /* padding: 20px 10px; */
+   margin: 0 8px;
+   /* color:blueviolet; */
+   color: black;
+   text-decoration: none;
+   font-size: 20px;
+}
+
+ul{
+   display: inline-block;
+   padding: 0 ;
+   padding-left: 32px ;
+}
+
+ul li{
+   list-style: none;
+   display: inline-block;
+}
+
+.header {
+   display: flex;
+   display: inline-block;
+   margin: 32px;
+}
+
+.header a{
+   justify-content: center;
+   align-items: center;
+}
+
+.active{
+   border-bottom: 1px solid black;
+}
+/* Header Section Ended */
+
+/* Main Section Started */
+.gallary{
+   padding: 10px;
+}
+
+.card h2{
+   display: inline-block;
+   margin: 8px 0 16px 0;
+   font-weight: 300;
+}
+
+.card img{
+   height: 500px;
+   width: 100%;
+   display: block;
+   object-fit: cover;
+}
+
+.card{
+   display: inline-block;
+   width: 49.75%;
+   box-sizing: border-box;
+   padding: 16px;
+   
+}
+
+.card img:hover{
+   opacity: 0.7;
+}
+/* Main Section Ended */
+
+
+/* Footer Section Started */
+.footer{
+   width: 40%;
+   min-width: 600px;
+   /* margin: 10%; */
+   margin: 100px 0 100px 200px;
+}
+
+.context h3{
+   font-size: 40px;
+   font-weight: 300;
+}
+
+.context p{
+   font-size: 40px;
+   font-weight: 300;
+   border-bottom: 1px solid black underline;
+}
+
+.contact{
+   margin-top: 100px;
+}
+
+.contact p{
+   margin: 0;
+   font-size: 20px;
+}
+
+.about{
+   text-decoration: black underline;
+   /* border-bottom: 1px solid black;  */
+   display : inline-block;
+   padding-bottom: 6px ;
+   margin-top: 0;
+}
+/* Footer Section Ended */
